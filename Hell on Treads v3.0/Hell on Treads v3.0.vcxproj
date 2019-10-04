@@ -134,6 +134,7 @@
     <ClCompile Include="Component\MovementComponent.cpp" />
     <ClCompile Include="Core.cpp" />
     <ClCompile Include="Entities\Enemy.cpp" />
+    <ClCompile Include="Entities\EnemyRepair\EnemyRepair.cpp" />
     <ClCompile Include="Entities\Entities.cpp" />
     <ClCompile Include="Entities\Player.cpp" />
     <ClCompile Include="HUD\HUD.cpp" />
@@ -151,6 +152,7 @@
     <ClInclude Include="Component\MovementComponent.h" />
     <ClInclude Include="Core.hpp" />
     <ClInclude Include="Entities\Enemy.hpp" />
+    <ClInclude Include="Entities\EnemyRepair\EnemyRepair.hpp" />
     <ClInclude Include="Entities\Entities.hpp" />
     <ClInclude Include="Entities\Player.hpp" />
     <ClInclude Include="GlobalVariables.h" />

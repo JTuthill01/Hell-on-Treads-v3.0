@@ -1,7 +1,7 @@
 #include "pch.hpp"
 #include "EnemyRepair.hpp"
 
-EnemyRepair::EnemyRepair() : mIsDestoryed(false), mIsHit(false), mEnemy(nullptr), mIsRepairNeeded(false), mAmbulanceHp(10), mIsAlive(true), mBuildingHp(15)
+EnemyRepair::EnemyRepair() : mIsDestoryed(false), mIsHit(false), mIsRepairNeeded(false), mAmbulanceHp(10), mIsAlive(true), mBuildingHp(15)
 {
 	load();
 
@@ -96,6 +96,6 @@ void EnemyRepair::load()
 
 void EnemyRepair::spawnAmbulance()
 {
-	if (mEnemy->getEnemyHp() <= 5 && mIsDestoryed != true)
+	if (mEnemy.getEnemyHp() <= 5 && mIsDestoryed != true)
 		mIsRepairNeeded = true;
 }

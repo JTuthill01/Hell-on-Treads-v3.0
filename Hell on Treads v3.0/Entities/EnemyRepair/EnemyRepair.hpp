@@ -42,5 +42,5 @@ private:
 
 	thor::Timer mBuildingHitTimer;
 
-	Enemy* mEnemy;
+	Enemy mEnemy;
 };

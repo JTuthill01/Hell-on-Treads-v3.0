@@ -54,6 +54,9 @@
     <ClCompile Include="Projectiles\Projectiles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Entities\EnemyRepair\EnemyRepair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core.hpp">
@@ -93,6 +96,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Projectiles\Projectiles.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\EnemyRepair\EnemyRepair.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
